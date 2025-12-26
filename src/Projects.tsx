@@ -26,7 +26,7 @@ const projects = [
   },
 ]; 
 
-import projet from "./assets/projet.jpeg";
+
 import projet1 from "./assets/projet1.jpg";
 import projet2 from "./assets/projet2.jpg";
 import projet3 from "./assets/projet3.jpg";
@@ -74,39 +74,7 @@ export default function Projects() {
     </article>
     ))}
     
-    {/* Deuxième boucle - ajoutez des liens différents ou supprimez cette partie */}
-    {/* {projects.map(p => (
-    <article key={`dup-${p.id}`} className="group p-4 sm:p-6 hover:shadow-lg transition-all hover:scale-105 duration-300">
-      <div className="relative overflow-hidden rounded-xl sm:rounded-2xl">
-        <img src={projet} alt={`Aperçu du projet ${p.title}`} className="w-full h-auto border border-cyan-300 bg-black p-3 sm:p-4 group-hover:brightness-75 transition-all" />
-        
-        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-          <a 
-            href={p.link} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-cyan-300 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-cyan-400 transition-colors"
-          >
-            Voir le site
-            <ExternalLink className="size-4 sm:size-5" />
-          </a>
-        </div>
-      </div>
-      
-      <h3 className="mt-3 sm:mt-4 font-semibold text-base sm:text-lg">{p.title}</h3>
-      <p className="mt-2 sm:mt-3 text-white/40 text-xs sm:text-sm">{p.excerpt}</p>
-      
-      <a 
-        href={p.link} 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 mt-3 sm:mt-4 text-cyan-300 text-xs sm:text-sm hover:underline"
-      >
-        Visiter le projet
-        <ExternalLink className="size-3 sm:size-4" />
-      </a>
-    </article>
-    ))} */}
+    
     </div>
     </div>
     </section>
