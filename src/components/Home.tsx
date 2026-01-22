@@ -17,7 +17,7 @@ export default function Hero() {
       
       <div className="max-w-4xl text-white mx-auto px-4 sm:px-6 text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-tight">
-          Hi I am <span className="text-cyan-300">Pascal Akoudo</span>
+          Hi I am <span className="text-cyan-300">Pascal Dubois</span>
         </h1>
         <h1 className="text-3xl sm:text-4xl md:text-3xl mt-4 font-medium leading-tight">
           Je crée des sites WordPress qui <span className="text-cyan-300">multiplient vos ventes par 3</span>

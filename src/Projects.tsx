@@ -4,8 +4,8 @@ const projects = [
     title: "E-commerce 300% de CA en plus",
     excerpt:
       "Boutique WooCommerce repensée de A à Z. Temps de chargement divisé par 3, checkout en 2 clics. Résultat : panier moyen +45%, taux d'abandon -60%.",
-    link: "https://akoudo8.netlify.app/",
-    image: projet1,
+    link: "https://acutepharmacy.com",
+    image: prot,
   },
 
   {
@@ -27,7 +27,7 @@ const projects = [
 ]; 
 
 
-import projet1 from "./assets/projet1.jpg";
+import prot from "./assets/prot.png";
 import projet2 from "./assets/projet2.jpg";
 import projet3 from "./assets/projet3.jpg";
 import { ExternalLink } from "lucide-react";
