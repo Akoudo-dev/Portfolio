@@ -1,23 +1,33 @@
 const projects = [
   {
     id: 1,
-    title: "E-commerce 300% de CA en plus",
+    title: "Plateforme E-commerce Pharmaceutique",
     excerpt:
-      "Boutique WooCommerce repensée de A à Z. Temps de chargement divisé par 3, checkout en 2 clics. Résultat : panier moyen +45%, taux d'abandon -60%.",
+      "Boutique en ligne sécurisée pour produits pharmaceutiques avec paiement optimisé, UX rapide et parcours d’achat simplifié. Performance améliorée et expérience utilisateur optimisée pour maximiser les conversions.",
     link: "https://acutepharmacy.com",
     image: prot,
   },
-
   {
     id: 2,
+    title: "Fashion & Electronics E-commerce Platform",
+    excerpt:
+      " Full-stack e-commerce platform for fashion and electronics products with modern UI, optimized checkout flow, and scalable architecture. Built for performance, conversion, and growth.",
+    link: "https://celadon-semolina-40e001.netlify.app/",
+    image: project4,
+  },
+
+  {
+    id: 3,
     title: "Site Vitrine Agence B2B",
     excerpt:
       "Plateforme WordPress modulaire avec système de templates. CMS intuitif pour l'équipe marketing. Blog optimisé SEO qui génère 10K visites/mois.",
     link: "https://akoudo1.netlify.app/",
     image: projet2,
   },
+
+  
   {
-    id: 3,
+    id: 4,
     title: "Galerie Top Photo Style ",
     excerpt:
       "Galerie WordPress avec recherche avancée, filtres dynamiques et lightbox responsive. Chargement lazy optimisé, masonry layout fluide. Plus de 5000 images organisées.",
@@ -30,6 +40,7 @@ const projects = [
 import prot from "./assets/prot.png";
 import projet2 from "./assets/projet2.jpg";
 import projet3 from "./assets/projet3.jpg";
+import project4 from "./assets/project4.jpeg";
 import { ExternalLink } from "lucide-react";
 
 export default function Projects() {
