@@ -10,7 +10,7 @@ import HtmlLogo from '../assets/logo/Html.jpg';
 import NodeLogo from '../assets/logo/Node.jpg';
 import SeoLogo from '../assets/logo/Seo.jpg';
 import ElementorLogo from '../assets/logo/Elementor.jpg';
-import WebflowLogo from '../assets/logo/Webflow.jpg';
+import WebflowLogo from '../assets/logo/webflow.jpg';
 import NextjsLogo from '../assets/logo/Nextjs.jpg';
 import FrameLogo from '../assets/logo/frame.jpg';
 
