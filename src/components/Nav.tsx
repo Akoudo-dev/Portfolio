@@ -29,22 +29,22 @@ export default function Nav() {
 
         {/* Navigation Desktop */}
         <nav className="hidden md:flex items-center space-x-4 lg:space-x-8 xl:space-x-12 text-white">
-          <Link to="/" className="text-sm lg:text-base xl:text-lg text-[#0f4cf7] hover:text-white transition-colors">Home</Link>
+          <Link to="/" className="text-sm lg:text-base xl:text-lg text-[#0f4cf7] hover:text-white transition-colors">Accueil</Link>
           <a
             href="/#projects"
             onClick={(event) => handleScrollTo(event, 'projects')}
             className="text-sm lg:text-base xl:text-lg hover:text-[#0f4cf7] transition-colors"
           >
-            Featured Projects
+           Projects
           </a>
           <a
             href="/#about"
             onClick={(event) => handleScrollTo(event, 'about')}
             className="text-sm lg:text-base xl:text-lg hover:text-[#0f4cf7] transition-colors"
           >
-            About me
+            A Propos
           </a>
-          <Link to="/contact" className="text-sm lg:text-base xl:text-lg hover:text-[#0f4cf7] transition-colors">Contact me</Link>
+          <Link to="/contact" className="text-sm lg:text-base xl:text-lg hover:text-[#0f4cf7] transition-colors">Contact</Link>
           <a
             href="/cv-pascal-akoudo.pdf"
             target="_blank"
@@ -88,7 +88,7 @@ export default function Nav() {
                 className="text-white text-lg py-2 hover:text-[#0f4cf7] transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Home
+               Accueil
               </Link>
               <a
                 href="/#projects"
@@ -98,7 +98,7 @@ export default function Nav() {
                 }}
                 className="text-white text-lg py-2 hover:text-[#0f4cf7] transition-colors"
               >
-                Featured Projects
+                 Projects
               </a>
               <a
                 href="/#about"
@@ -108,14 +108,14 @@ export default function Nav() {
                 }}
                 className="text-white text-lg py-2 hover:text-[#0f4cf7] transition-colors"
               >
-                About me
+                A Propos 
               </a>
               <Link
                 to="/contact"
                 className="text-white text-lg py-2 hover:text-[#0f4cf7] transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact me
+                Contact 
               </Link>
             </div>
           </nav>
