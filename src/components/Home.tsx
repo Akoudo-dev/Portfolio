@@ -9,35 +9,49 @@ import {
 import { CodeXml } from 'lucide-react';
 import { Anchor } from 'lucide-react';
 import { WandSparkles } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import roImage from '../assets/ro.jpeg';
 
 export default function Hero() {
   return (
     <>
     <section id="hero" className="bg-black pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-10">
       
-      <div className="max-w-4xl text-white mx-auto px-4 sm:px-6 text-center">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-tight">
-          Hi I am <span className="text-cyan-300">Pascal Dubois</span>
-        </h1>
-        <h1 className="text-3xl sm:text-4xl md:text-3xl mt-4 font-medium leading-tight">
-          Je crée des sites WordPress qui <span className="text-cyan-300">multiplient vos ventes par 3</span>
-        </h1>
-         <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl text-white px-2">
-          Développeur WordPress expert. Je code des sites <span className="text-cyan-300">rapides comme l'éclair</span>, optimisés SEO et conçus pour transformer vos visiteurs en clients payants.
-        </p>
+      <div className="max-w-4xl text-white mx-auto px-4 sm:px-6 text-center md:text-left ">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-6 ">
+          <div className="flex-1">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium leading-tight">
+              Salut, je m'appelle <span className="text-[#0f4cf7]">AKOUDO Pascal</span>
+            </h1>
+            <h1 className="text-3xl sm:text-4xl md:text-3xl mt-4 font-medium leading-tight">
+              Je crée des sites WordPress qui <span className="text-[#0f4cf7]">multiplient vos ventes par 3</span>
+            </h1>
+             <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl text-white px-2 md:px-0">
+              Développeur WordPress expert. Je code des sites <span className="text-[#0f4cf7]">rapides comme l'éclair</span>, optimisés SEO et conçus pour transformer vos visiteurs en clients payants.
+            </p>
+          </div>
+          
+          <div className="bg-white rounded-full border-2 border-[#0f4cf7] p-4 sm:p-5 shadow mx-auto w-full max-w-[280px]">
+            <img 
+              src={roImage} 
+              alt="Pascal Dubois" 
+              className="w-full h-auto rounded-full object-cover"
+            />
+          </div>
+        </div>
         
         <div className="mt-6 sm:mt-8 justify-center">
-         <a 
-            href="#contact" 
-            className="inline-flex items-center gap-2 bg-indigo-600 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-indigo-700 transition-colors"
+         <Link 
+            to="/contact" 
+            className="inline-flex items-center gap-2 bg-[#0f4cf7] text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-indigo-700 transition-colors"
           >
             
             Discutons de votre projet
             <span className="relative flex h-3 w-3">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#0f4cf7] opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-[#0f4cf7]"></span>
             </span>
-          </a>
+          </Link>
          <div className="flex justify-center gap-3 sm:gap-4 mt-6 sm:mt-8 md:mt-10">
           <a href="https://github.com/Akoudo-dev">
              <Github  className="hover:text-blue-600 bg-white rounded-full p-2 size-9 sm:size-10 text-black cursor-pointer"/>
@@ -70,10 +84,10 @@ export default function Hero() {
     <section className="bg-[#1d1d14] text-white pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-10">
       <div className="max-w-4xl text-white mx-auto px-4 sm:px-6">
        <p className="text-center text-sm sm:text-base">Ce que j'apporte à votre business</p>
-       <h3 className="mb-4 sm:mb-6 mt-2 text-2xl sm:text-3xl md:text-4xl font-medium text-center">3 solutions pour <span className="text-cyan-300">exploser vos objectifs</span></h3>
+       <h3 className="mb-4 sm:mb-6 mt-2 text-2xl sm:text-3xl md:text-4xl font-medium text-center">3 solutions pour <span className="text-[#0f4cf7]">exploser vos objectifs</span></h3>
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-10">
        {/*  card1 */}
-    <div className="border rounded-2xl p-4 sm:p-5 md:p-6 hover:bg-cyan-300 text-white hover:text-black">
+    <div className="hover:bg-black border rounded-2xl p-4 sm:p-5 md:p-6  text-white hover:text-white">
       <div className="flex justify-between items-center gap-2">
       <CodeXml className="size-6 sm:size-7  border-2 rounded-full"/>
       <h3 className="text-2xl sm:text-3xl font-semibold opacity-50">01</h3>
@@ -85,7 +99,7 @@ export default function Hero() {
    
     </div>
    {/*  card2 */}
-    <div className="border border-cyan-300 rounded-2xl p-4 sm:p-5 md:p-6 hover:bg-cyan-300 text-white hover:text-black">
+    <div className="border border-[#0f4cf7] rounded-2xl p-4 sm:p-5 md:p-6 hover:bg-black text-white hover:text-white">
     <div className="flex justify-between items-center gap-2">
       <Anchor className="size-6 sm:size-7  border-2 rounded-full"/>
       <h3 className="text-2xl sm:text-3xl font-semibold opacity-50">02</h3>
@@ -96,7 +110,7 @@ export default function Hero() {
    
     </div>
     {/* card3 */}
-    <div className="border rounded-2xl border-cyan-300 p-4 sm:p-5 md:p-6 hover:bg-cyan-300 text-white hover:text-black">
+    <div className="border rounded-2xl border-[#0f4cf7] p-4 sm:p-5 md:p-6 hover:bg-black text-white hover:text-white">
     <div className="flex justify-between items-center gap-2">
       <WandSparkles className="size-6 sm:size-7  border-2 rounded-full"/>
       <h3 className="text-2xl sm:text-3xl font-semibold opacity-50">03</h3>

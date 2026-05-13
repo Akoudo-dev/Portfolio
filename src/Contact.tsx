@@ -44,7 +44,7 @@ export default function Contact() {
     <section id="contact" className="bg-black py-12 sm:py-16 md:py-20">
       <div className="bg-black text-white">
         <div className="px-4 sm:px-6">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center">Prêt à lancer <span className="text-cyan-300">votre projet</span> ?</h2>
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center">Prêt à lancer <span className="text-[#0f4cf7]">votre projet</span> ?</h2>
         <p className="mt-2 text-gray-400 text-center text-sm sm:text-base">
           Réponse garantie sous 24h. Devis gratuit et sans engagement.
         </p>
@@ -54,23 +54,23 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
         <div className="space-y-4 sm:space-y-6">
           <h3 className="text-lg sm:text-xl md:text-2xl font-semibold leading-relaxed">
-             Votre site WordPress de rêve commence ici. <br /> <span className="text-cyan-300">Parlons-en maintenant !</span>
+             Votre site WordPress de rêve commence ici. <br /> <span className="text-[#0f4cf7]">Parlons-en maintenant !</span>
           </h3>
           <div className="space-y-3 sm:space-y-4">
             <div className='flex items-center gap-3 text-sm sm:text-base'>
-            <Phone className='text-cyan-300'/>
+            <Phone className='text-[#0f4cf7]'/>
             <p className="text-gray-300">+229 60730862</p>
             </div>
           <div className="flex items-center gap-3 text-sm sm:text-base">
-            <Mail className='text-cyan-300'/>
+            <Mail className='text-[#0f4cf7]'/>
             <p className="text-gray-300">pascalakoudo14@gmail.com</p>
           </div>
           <div className="flex items-center gap-3 text-sm sm:text-base">
-            <MapPin className='text-cyan-300'/>
+            <MapPin className='text-[#0f4cf7]'/>
             <p className="text-gray-300">Cotonou, Bénin</p>
           </div>
           <div className="mt-6 pt-6 border-t border-gray-700">
-            <p className="text-cyan-300 font-medium text-sm sm:text-base mb-2">✅ Ce que vous obtenez :</p>
+            <p className="text-cyan-300 font-medium text-sm sm:text-base mb-2"> Ce que vous obtenez :</p>
             <ul className="space-y-2 text-gray-300 text-xs sm:text-sm">
               <li>• Devis détaillé en 48h maximum</li>
               <li>• Consultation stratégique gratuite (30 min)</li>
@@ -154,8 +154,8 @@ export default function Contact() {
 
           {/* Message de succès détaillé */}
           {status === 'success' && (
-            <div className="bg-green-500/20 border border-green-500 rounded-lg p-4 text-center">
-              <p className="text-green-400 font-medium">✅ Message envoyé avec succès !</p>
+            <div className="bg-[#0f4cf7] border border-[#0f4cf7] rounded-lg p-4 text-center">
+              <p className="text-[#0f4cf7] font-medium"> Message envoyé avec succès !</p>
               <p className="text-sm text-gray-300 mt-1">Je vous répondrai dans les 24h.</p>
             </div>
           )}
@@ -166,7 +166,7 @@ export default function Contact() {
               <p className="text-red-400 font-medium"> Erreur d'envoi</p>
               <p className="text-sm text-gray-300 mt-1">
                 Contactez-moi directement : <br />
-                <a href="mailto:pascalakoudo14@gmail.com" className="text-cyan-300 hover:underline">
+                <a href="mailto:pascalakoudo14@gmail.com" className="text-[#0f4cf7] hover:underline">
                   pascalakoudo14@gmail.com
                 </a>
               </p>
